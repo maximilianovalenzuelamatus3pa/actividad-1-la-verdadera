@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2: Edad y clima</title>
+    <link rel="stylesheet" href="tarea2.css">
+</head>
+<body>
+    <main class="card">
+        <h1>Actividad 1: Edad y clima</h1>
+
+        <section>
+            <label for="edad">¿Cuántos años tienes?</label>
+            <input id="edad" type="number" min="0" step="1" placeholder="Ingresa tu edad" />
+            <button id="verificarEdad" type="button">Verificar edad</button>
+            <p id="resultadoEdad" class="resultado" aria-live="polite"></p>
+        </section>
+
+        <section>
+            <label for="clima">¿Hace calor o frío?</label>
+            <input id="clima" type="text" placeholder="Escribe calor o frio" />
+            <button id="verificarClima" type="button">Verificar clima</button>
+            <p id="resultadoClima" class="resultado" aria-live="polite"></p>
+        </section>
+    </main>
+
+    <script src="tarea2.js"></script>
+</body>
+</html>
